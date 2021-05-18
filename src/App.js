@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 import Languages from './languages.js';
+import Countries from './countries.js';
+import AboutMe from './AboutMe.js';
 
 export default function App() {
   return (
@@ -12,6 +14,7 @@ export default function App() {
       </p>
       <img src={Languages.Spanish.Image} />
       <p>{Languages.Spanish.Description}</p>
+      <AboutMe />
     </div>
   );
 }
